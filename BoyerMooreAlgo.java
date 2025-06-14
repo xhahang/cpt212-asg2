@@ -40,8 +40,8 @@ public class BoyerMooreAlgo {
     }
 
     // Preprocess case 2 for good suffix rule
-    // it ensures that the pattern is shifted correctly
-    // when there's no strong suffix match
+    // Applies fallback shifts using border positions
+    // when no strong suffix match is available
     public static void preprocessCase2(int[] shift, int[] bpos, String pat, int m) {
         int j = bpos[0];
         for (int i = 0; i <= m; i++) {
@@ -96,7 +96,6 @@ public class BoyerMooreAlgo {
         //List to store found pattern indices
         List<Integer> foundIndex = new ArrayList<>();
 
-        // Initialize shift values to 0
         for (int i = 0; i < shift.length; i++) {
             shift[i] = 0;
         }
@@ -124,7 +123,7 @@ public class BoyerMooreAlgo {
             if (j < 0) {
                 foundIndex.add(s); // Store the found index
                 System.out.println("Pattern found at index " + s);
-                s += shift[0]; // Shift the pattern based on good suffix rule
+                s += shift[0]; // Shift pattern for full match using good suffix rule
                 found = true;
             } 
 
