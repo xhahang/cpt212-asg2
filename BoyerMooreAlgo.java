@@ -142,7 +142,7 @@ public class BoyerMooreAlgo {
         }
         // Print all found pattern's indices
         if (!foundIndex.isEmpty()) {
-            System.out.print("Pattern found at index: ");
+            System.out.print("\nPattern found at index: ");
             for (int i=0; i<foundIndex.size(); i++) {
                 int idx = foundIndex.get(i);
                 if (i == foundIndex.size() - 1) {
