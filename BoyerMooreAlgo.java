@@ -154,9 +154,9 @@ public class BoyerMooreAlgo {
     }
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
-        System.out.print("Key in the Text: ");
+        System.out.print("Enter the text: ");
         String text = scanner.nextLine();
-        System.out.print("Key in the Pattern: ");
+        System.out.print("Enter the pattern: ");
         String pattern = scanner.nextLine();
         scanner.close();
 
