@@ -59,7 +59,7 @@
 
 <h2>🧩 What’s Included</h2>
 <ul>
-  <li><b>Boyer–Moore</b> with Bad Character &amp; Good Suffix heuristics.</li>
+  <li><b>Boyer-Moore</b> with Bad Character &amp; Good Suffix heuristics.</li>
   <li><b>KMP</b> with Failure (LPS) table construction.</li>
   <li>Concise algorithms in <code>.psu.md</code> files.</li>
 </ul>
