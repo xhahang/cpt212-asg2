@@ -1,4 +1,4 @@
-<h1 align="center">🔎 String Matching Algorithms — Boyer–Moore & KMP</h1>
+<h1 align="center">🔎 String Matching Algorithms: Boyer-Moore & KMP</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Java-orange" alt="Java">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Java implementations and diagrams of <b>Boyer–Moore</b> and <b>Knuth–Morris–Pratt (KMP)</b> string matching algorithms,
+  Java implementations and algorithms of <b>Boyer–Moore</b> and <b>Knuth–Morris–Pratt (KMP)</b> string matching algorithms,
   created for a university assignment. Includes visual heuristics and brief, step-by-step notes.
 </p>
 
@@ -47,7 +47,7 @@
 
 <h2>🚀 Run the Code (Java)</h2>
 <ol>
-  <li>Install <b>JDK 8+</b>.</li>
+  <li>Install <b>Latest JDK</b>.</li>
   <li>Open a terminal in the algorithm folder (e.g., <code>algorithms/boyer-moore</code>).</li>
   <li>Compile:
     <pre><code>javac BoyerMooreAlgo.java</code></pre>
