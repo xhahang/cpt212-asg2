@@ -57,8 +57,6 @@
   </li>
 </ol>
 
-<hr/>
-
 <h2>🧩 What’s Included</h2>
 <ul>
   <li><b>Boyer–Moore</b> with Bad Character &amp; Good Suffix heuristics.</li>
@@ -66,6 +64,49 @@
   <li>Concise algorithms in <code>.psu.md</code> files.</li>
 </ul>
 
----
+<h2 id="team">🤝 Team Members</h2>
+
+<p>Special thanks to all contributors of this project.</p>
+<table>
+<tr>
+
+<td align="center">
+<a href="https://github.com/Some0ne11">
+<img src="https://avatars.githubusercontent.com/u/122141550?v=4" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Muhammad Ammar Danial Abdullah</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/ngxuanhern">
+<img src="https://avatars.githubusercontent.com/u/177940919?v=4" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Ng Xuan Hern</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/L049XEZ">
+<img src="https://avatars.githubusercontent.com/u/115411319?v=4" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Low Yvonne</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/bringback1899">
+<img src="https://avatars.githubusercontent.com/u/164884629?v=4" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Lim Wei Ling</b>
+</sub>
+</a>
+</td>
+
+</tr>
+</table>
 
 <p><i>Note: This repository is for educational purposes and demonstration only.</i></p>
